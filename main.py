@@ -80,6 +80,9 @@ def main(unreal_insights = os.getenv("UNREAL_INSIGHTS_PATH"), trace_file = os.ge
     print(f"🔑 OpenAI Key: {openai_key}")
     print(f"🤖 OpenAI Model: {openai_model}")
 
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
     print("🚀 Starting Unreal Insights analysis...")
     export_unreal_trace(unreal_insights, trace_file, output_dir)
 
