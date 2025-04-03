@@ -30,5 +30,5 @@ NOTE::Unreal Insights currently doesn't support exporting stack traces to csvs. 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourname/StackEm.git
+git clone https://github.com/bresume/StackEm.git
 cd StackEm
