@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unreal Engine auto-generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.idea/
+
+# Unreal Insights outputs
+*.utrace
+TraceExports/
+analysis/
+*.csv
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Mac / Linux / Windows files
+.DS_Store
+Thumbs.db
